@@ -1,0 +1,75 @@
+<div class="container">
+<h2>Magic The Gathering Set Viewer<span ng-show="wait==true" style="color:red;font-size:18;font-weight:Bold">...</span></h2>
+<hr>
+<br>
+<div class="row">
+	<div class="col-xs-4">
+		Period
+		<div class="rangeslider" range-slider min="0" max="220" model-min="min" model-max="max" show-values="false"></div>
+	</div>
+	<div class="col-xs-4" style="padding-right:15px">
+		Standard Timeshifter : {{timeshiftedtoday}}
+		<slider floor="0" ceiling="200" step="1" precision="0" ng-model="newtoday"></slider>
+	</div>
+	<div class="col-xs-4" >
+		Search Name/Block
+		<input class="form-control" ng-model="textfilter" ng-model-options="{debounce: 1000}" style="margin-top:10px;height:28px">
+	</div>
+</div>
+
+<input type="checkbox" checked ng-click="fireSearch('core')">&nbsp&nbsp;core&nbsp&nbsp;
+<input type="checkbox" checked ng-click="fireSearch('expansion')">&nbsp&nbsp;expansion&nbsp&nbsp;<br>
+<input type="checkbox" ng-click="fireSearch('commander')">&nbsp&nbsp;commander&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('conspiracy')">&nbsp&nbsp;conspiracy&nbsp&nbsp;<br>
+<input type="checkbox" ng-click="fireSearch('promo')">&nbsp&nbsp;promo&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('reprint')">&nbsp&nbsp;reprint&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('box')">&nbsp&nbsp;box&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('starter')">&nbsp&nbsp;starter&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('vanguard')">&nbsp&nbsp;vanguard&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('duel deck')">&nbsp&nbsp;dueldeck&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('from the vault')">&nbsp&nbsp;from the vault&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('planechase')">&nbsp&nbsp;planechase&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('premium deck')">&nbsp&nbsp;premium deck&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('archenemy')">&nbsp&nbsp;archenemy&nbsp&nbsp;
+<input type="checkbox" ng-click="fireSearch('onlineonly')">&nbsp&nbsp;onlineonly&nbsp&nbsp;
+
+<br><br><br>
+<h3>{{datefrom}} --> {{dateto}}</h3>
+<br>
+<table class="table">
+	<tr style="background-color: #dddddd"><td><td>Rotater<td>Set<td>Block<td>Code<td>Type<td>Release Date<td>Standard End<td>Kicker<td>
+		<tr 
+			
+			ng-repeat="set in setInfo | orderBy:'releaseDate' "
+
+			class="vertical-align-middle" 
+			
+			ng-class="{ 
+				'setIsRotating': set.rotate=='R', 
+				'setIsInStandard': inStandard(set) 
+			}" 
+
+			ng-show="indexFilter($index, set)"
+
+			>
+
+			<td style="text-align:left">
+				<span class="icon-wrapper">
+					<i class="mtg {{set.iconClass}}"></i>
+					<span ng-show="set.noicon==true">No Icon</span>
+				</span>
+			</td>
+
+			<td>{{set.rotate}}</td>
+			<td>{{set.name}}</td>
+			<td>{{set.block}}</td>
+			<td>{{set.code}}</td>
+			<td>{{set.setType}}</td>
+			<td>{{set.releaseDateDisp}}</td>
+			<td>{{set.standardRotateOutDateDisp}}</td>
+			<td>{{set.rotateOutWhenIsReleased}}</td>
+			<td>{{selectorExists("." + set.iconClass)}}</td>
+		</tr>
+
+</table>
+</div>

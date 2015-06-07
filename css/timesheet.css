@@ -1,0 +1,127 @@
+.timesheet {
+	height:2500px;
+	margin: 0 auto;
+	width: 2200px;
+}
+.timesheet {
+	background-color: #333;
+	border-top: 1px solid rgba(250,250,250,0.5);
+	position: relative;
+}
+
+.timesheet.color-scheme-default .bubble-default {
+	background-color: RGBA(252, 70, 74, 1);
+}
+.timesheet.color-scheme-default .bubble-lorem {
+	background-color: RGBA(154, 202, 39, 1);
+}
+.timesheet.color-scheme-default .bubble-ipsum {
+	background-color: RGBA(60, 182, 227, 1);
+}
+.timesheet.color-scheme-default .bubble-dolor {
+	background-color: RGBA(244, 207, 48, 1);
+}
+.timesheet.color-scheme-default .bubble-sit {
+	background-color: RGBA(169, 105, 202, 1);
+}
+
+.timesheet.color-scheme-alternative .bubble-default {
+	background-color: #f3552e;
+}
+.timesheet.color-scheme-alternative .bubble-lorem {
+	background-color: #88c33a;
+}
+.timesheet.color-scheme-alternative .bubble-ipsum {
+	background-color: #436ae0;
+}
+.timesheet.color-scheme-alternative .bubble-dolor {
+	background-color: #f4d234;
+}
+.timesheet.color-scheme-alternative .bubble-sit {
+	background-color: #707d86;
+}
+.timesheet .scale {
+	float: left;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.timesheet .scale section {
+	border-left: 1px dashed rgba(250,250,250,0.2);
+	color: rgba(250,250,250,0.8);
+	float: left;
+	font-family: "Calibri";
+	font-size: 13px;
+	font-weight: lighter;
+	height: 100%;
+	line-height: 24px;
+	text-align: center;
+	width: 59px;
+}
+.timesheet .data {
+	color: rgba(250,250,250,0.8);
+	font-family: "Calibri";
+	font-size: 13px;
+	list-style-type: none;
+	margin: 28px 0 0 0;
+	overflow: hidden;
+	padding: 0;
+	text-align: left;
+}
+.timesheet .data li {
+	clear: both;
+	display: block;
+	height: 21px;
+	line-height: 22px;
+	margin: 0 0 3px 0;
+	position: relative;
+	white-space: nowrap;
+}
+.timesheet .data li:hover .bubble {
+	opacity: 1;
+}
+.timesheet .data li .date {
+	color: #b5b5b5;
+	font-size: 14px;
+}
+.timesheet .data li .label {
+	color: #979796;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 21px;
+	padding-left: 5px;
+	white-space: nowrap;
+}
+.timesheet .data li .bubble {
+	border-radius: 4px;
+	display: block;
+	float: left;
+	height: 7px;
+	margin: 0 10px 0 0;
+	opacity: 0.7;
+	position: relative;
+	top: 7px;
+	width: 24px;
+}
+#timesheet-alternative {
+	background-color: RGBA(247, 247, 247, 1);
+	border-radius: 5px;
+}
+#timesheet-alternative section {
+	border-left: 1px dashed RGBA(63, 68, 72, 0.2);
+	color: RGBA(63, 68, 72, 1);
+}
+#timesheet-alternative section:first-child {
+	border-left: 1px dashed transparent;
+}
+#timesheet-alternative .date {
+	display: none;
+}
+#timesheet-alternative .bubble {
+	margin-right: 7px;
+}
+#timesheet-alternative .label {
+	color: RGBA(48, 48, 48, 1);
+	padding-left: 0px;
+}

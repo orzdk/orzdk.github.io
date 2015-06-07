@@ -1,0 +1,71 @@
+.paste-csv-textarea{
+	width: 100%;
+	font-size: 12px;
+}
+
+.mana-img{
+	width:20px;
+	height:20px;
+	margin:2px;
+}
+
+.mana-row-img{
+	width:30px;
+	height:30px;
+	margin:0px;
+}
+
+
+.mana-row-card-img{
+	width:40px;
+	height:55px;
+	margin:0px;
+}
+
+
+.magic-card-container{
+	display:table;
+	margin: 0px	
+}
+
+.magic-card-div{
+	width: 172px;
+	height: 244px;
+	float: left;
+	display:table-cell;
+	margin:3px
+}
+
+.magic-card-img{
+	width: 172px;
+	height: 244px;
+	float: left;
+	display:table-cell;
+	margin:3px
+}
+
+
+.magic-card-div-sm{
+	width: 102px;
+	height: 144px;
+	float: left;
+	display:block;
+	margin:3px;
+}
+
+.magic-card-img-sm{
+	width: 102px;
+	height: 144px;
+	float: left;
+	display:block;
+	margin:3px;
+}
+
+.magic-card-img-sm:hover{
+	width: 102px;
+	height: 144px;
+	float: left;
+	display:block;
+	margin:3px;
+	border:3px red solid;
+}
