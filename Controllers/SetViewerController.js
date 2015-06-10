@@ -24,8 +24,8 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 		cb_onlineonly: false
 	}
 
-	$scope.min = 155;
-	$scope.max = 178;   
+	$scope.min = 142;
+	$scope.max = 180;   
 
 	$scope.datefrom = "";
 	$scope.dateto = "";
@@ -84,23 +84,7 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 		_.each($scope.cbFilters, function(cb, i, obj){
 			obj[i] = !obj[i];
 		});
-		/*
-		$scope.cb_core = !$scope.cb_core;
-		$scope.cb_expansion = !$scope.cb_expansion;
-		$scope.cb_commander = !$scope.cb_commander;
-		$scope.cb_conspiracy = !$scope.cb_conspiracy;
-		$scope.cb_promo = !$scope.cb_promo ;
-		$scope.cb_reprint = !$scope.cb_reprint;
-		$scope.cb_box = !$scope.cb_box ;
-		$scope.cb_starter = !$scope.cb_starter;
-		$scope.cb_vanguard = !$scope.cb_vanguard ;
-		$scope.cb_duel = !$scope.cb_duel;
-		$scope.cb_from = !$scope.cb_from;
-		$scope.cb_planechase = !$scope.cb_planechase;
-		$scope.cb_archenemy = !$scope.cb_archenemy;
-		$scope.cb_premium = !$scope.cb_premium;
-		$scope.cb_onlineonly = !$scope.cb_onlineonly;
-		*/
+
 	}
 
     $scope.indexFilter = function(index, set) {
