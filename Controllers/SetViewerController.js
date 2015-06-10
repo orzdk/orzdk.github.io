@@ -21,7 +21,8 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 		cb_planechase: false,
 		cb_premium__deck: false,
 		cb_archenemy: false,
-		cb_onlineonly: false
+		cb_onlineonly: false,
+		cb_un: false
 	}
 
 	$scope.min = 142;
