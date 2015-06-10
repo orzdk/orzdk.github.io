@@ -1,7 +1,6 @@
 <div class="container">
-<h2>Magic The Gathering Set Viewer<span ng-show="wait==true" style="color:red;font-size:18;font-weight:Bold">...</span></h2>
+<h3>Magic The Gathering Set Viewer<span ng-show="wait==true" style="color:red;font-size:18;font-weight:Bold">...</span></h3>
 <hr>
-<br>
 <div class="row">
 	<div class="col-xs-4">
 		Period
@@ -17,32 +16,32 @@
 	</div>
 </div>
 
-<input type="checkbox" checked ng-click="fireSearch('core')">&nbsp&nbsp;core&nbsp&nbsp;
-<input type="checkbox" checked ng-click="fireSearch('expansion')">&nbsp&nbsp;expansion&nbsp&nbsp;<br>
-<input type="checkbox" ng-click="fireSearch('commander')">&nbsp&nbsp;commander&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('conspiracy')">&nbsp&nbsp;conspiracy&nbsp&nbsp;<br>
-<input type="checkbox" ng-click="fireSearch('promo')">&nbsp&nbsp;promo&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('reprint')">&nbsp&nbsp;reprint&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('box')">&nbsp&nbsp;box&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('starter')">&nbsp&nbsp;starter&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('vanguard')">&nbsp&nbsp;vanguard&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('duel deck')">&nbsp&nbsp;dueldeck&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('from the vault')">&nbsp&nbsp;from the vault&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('planechase')">&nbsp&nbsp;planechase&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('premium deck')">&nbsp&nbsp;premium deck&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('archenemy')">&nbsp&nbsp;archenemy&nbsp&nbsp;
-<input type="checkbox" ng-click="fireSearch('onlineonly')">&nbsp&nbsp;onlineonly&nbsp&nbsp;
+<input type="checkbox" checked ng-model="cbFilters.cb_core">&nbsp&nbsp;core&nbsp&nbsp;
+<input type="checkbox" checked ng-model="cbFilters.cb_expansion">&nbsp&nbsp;expansion&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_commander">&nbsp&nbsp;commander&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_conspiracy">&nbsp&nbsp;conspiracy&nbsp&nbsp;<br>
+<input type="checkbox" ng-model="cbFilters.cb_promo">&nbsp&nbsp;promo&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_reprint">&nbsp&nbsp;reprint&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_box">&nbsp&nbsp;box&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_starter">&nbsp&nbsp;starter&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_vanguard">&nbsp&nbsp;vanguard&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_duel__deck">&nbsp&nbsp;dueldeck&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_from__the__vault">&nbsp&nbsp;from the vault&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_planechase">&nbsp&nbsp;planechase&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_premium__deck">&nbsp&nbsp;premium deck&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_archenemy">&nbsp&nbsp;archenemy&nbsp&nbsp;
+<input type="checkbox" ng-model="cbFilters.cb_onlineonly">&nbsp&nbsp;onlineonly<button ng-click="toggleCheckboxes()">Toggle</button>
 
-<br><br><br>
-<h3>{{datefrom}} --> {{dateto}}</h3>
+<span class="setrange">{{datefrom}} to {{dateto}}</span>
 <br>
+
 <table class="table">
-	<tr style="background-color: #dddddd"><td><td>Rotater<td>Set<td>Block<td>Code<td>Type<td>Release Date<td>Standard End<td>Kicker<td>
+	<tr style="background-color: #dddddd; position: relative"><td>Symbol<td>Rotater<td>Set<td>Block<td>Code<td>Type<td>Release Date<td>Standard End<td>Kicker<td>
 		<tr 
 			
 			ng-repeat="set in setInfo | orderBy:'releaseDate' "
 
-			class="vertical-align-middle" 
+			class="vertical-align-middle pad3" 
 			
 			ng-class="{ 
 				'setIsRotating': set.rotate=='R', 

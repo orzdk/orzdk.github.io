@@ -1,10 +1,28 @@
-deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeout","filterFilter", "MyCards",
+deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeout","filterFilter", "MyCards", "$filter",
 
-	function($scope, DataService2, $timeout, filterFilter, MyCards){
+	function($scope, DataService2, $timeout, filterFilter, MyCards, $filter){
 
 	$scope.setInfo = [];
 	$scope.typesInfo = [];
 	$scope.setTypeFilterArray = ["core","expansion"];
+
+	$scope.cbFilters = {
+		cb_core:true,
+		cb_expansion: true,
+		cb_commander: false,
+		cb_conspiracy: false,
+		cb_promo: false,
+		cb_reprint: false,
+		cb_box: false,
+		cb_starter: false,
+		cb_vanguard: false,
+		cb_duel__deck: false,
+		cb_from__the__vault: false,
+		cb_planechase: false,
+		cb_premium__deck: false,
+		cb_archenemy: false,
+		cb_onlineonly: false
+	}
 
 	$scope.min = 155;
 	$scope.max = 178;   
@@ -17,38 +35,73 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 
 	$scope.timeshiftedtoday = new Date().toISOString().slice(0, 7);
 
+	$scope.$watch('cbFilters', function(new_, old_){
+		filterfilter = [];
+		_.each(new_, function(filterselection, i){
+			if(filterselection == true) {
+				filterfilter.push(i.split("__").join(" ").substring(3));
+			}
+		});
+
+		$scope.setTypeFilterArray = filterfilter;
+	}, true);
+
 	$scope.$watch('min', function(new_, old_){
-		if ($scope.setInfo[new_]) $scope.datefrom = $scope.setInfo[$scope.min].name + " (" + $scope.setInfo[$scope.min].releaseDate.substring(0,7) + ")" ;
+		if ($scope.setInfo[new_]) $scope.datefrom = $scope.setInfo[$scope.min].name 
+			+ " (" + $scope.setInfo[$scope.min].releaseDate.substring(0,7) + ")" ;
 	});
 
 	$scope.$watch('max', function(new_, old_){
-		if ($scope.setInfo[new_]) $scope.dateto = $scope.setInfo[$scope.max].name + " (" + $scope.setInfo[$scope.max].releaseDate.substring(0,7) + ")" ;
+		if ($scope.setInfo[new_]) $scope.dateto = $scope.setInfo[$scope.max].name 
+			+ " (" + $scope.setInfo[$scope.max].releaseDate.substring(0,7) + ")" ;
 	});
 
 	$scope.$watch('newtoday', function(new_, old_){
-		if($scope.reldates) $scope.timeshiftedtoday = $scope.reldates[new_].substring(0,7);;
+		if($scope.reldates && $scope.reldates[new_]) $scope.timeshiftedtoday = $scope.reldates[new_].substring(0,7);;
 	});
 
-    $scope.addToFilter = function(colour) {
-        var i = $.inArray(colour, $scope.setTypeFilterArray);
+    $scope.toggleFilter = function(settype) {
+        var i = $.inArray(settype, $scope.setTypeFilterArray);
         if (i > -1) {
             $scope.setTypeFilterArray.splice(i, 1);
         } else {
-            $scope.setTypeFilterArray.push(colour);
+            $scope.setTypeFilterArray.push(settype);
         }
     }
 
-	$scope.fireSearch = function(criteria){
+	$scope.fireSearch = function(filterSetType){
 		$scope.wait = true;
 		if (angular.isDefined($scope.filterTimeout)) {
 			$timeout.cancel($scope.filterTimeout);
 		}
 		$scope.filterTimeout = $timeout(function () {
-			$scope.addToFilter(criteria);
+			$scope.toggleFilter(filterSetType);
 			$scope.wait = false;
-		}, 600);	
+		}, 250);	
 	}
 
+	$scope.toggleCheckboxes = function(){
+		_.each($scope.cbFilters, function(cb, i, obj){
+			obj[i] = !obj[i];
+		});
+		/*
+		$scope.cb_core = !$scope.cb_core;
+		$scope.cb_expansion = !$scope.cb_expansion;
+		$scope.cb_commander = !$scope.cb_commander;
+		$scope.cb_conspiracy = !$scope.cb_conspiracy;
+		$scope.cb_promo = !$scope.cb_promo ;
+		$scope.cb_reprint = !$scope.cb_reprint;
+		$scope.cb_box = !$scope.cb_box ;
+		$scope.cb_starter = !$scope.cb_starter;
+		$scope.cb_vanguard = !$scope.cb_vanguard ;
+		$scope.cb_duel = !$scope.cb_duel;
+		$scope.cb_from = !$scope.cb_from;
+		$scope.cb_planechase = !$scope.cb_planechase;
+		$scope.cb_archenemy = !$scope.cb_archenemy;
+		$scope.cb_premium = !$scope.cb_premium;
+		$scope.cb_onlineonly = !$scope.cb_onlineonly;
+		*/
+	}
 
     $scope.indexFilter = function(index, set) {
     	var show = false;
@@ -57,7 +110,7 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
     			if ( $scope.textfilter == "" || $scope.textfilter.length < 3 ){
     				show = true;
     			} else {
-    				if ( set.name.indexOf($scope.textfilter) > -1 || set.block.indexOf($scope.textfilter) > -1 ){
+    				if ( set.name.indexOf($scope.textfilter) > -1 || set.block.indexOf($scope.textfilter) || set.rotateOutWhenIsReleased.indexOf($scope.textfilter) > -1 ){
     					show = true;
     				}
     			}

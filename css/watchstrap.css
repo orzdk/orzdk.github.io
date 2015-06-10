@@ -8,6 +8,7 @@ html,body {
     padding:0;
     margin:0;
 	font-family: sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
 }
 
 div[class*="col-xs-"]{
@@ -24,13 +25,22 @@ td{
 }
 
 .mtg{
-	font-size: 35px!important
+	font-size: 20px!important
 }
 
 .icon-wrapper {
   min-width:80px;
   text-align:center;
   display:inline-block;
+}
+
+.setrange{
+	font-size: 20px;
+	margin-bottom: 4px;
+}
+
+.pad3{
+	padding: 3px;
 }
 
 i{
@@ -42,7 +52,7 @@ i{
 }
 
 .setIsInStandard{
-	background-color: #eeffee;
+	background-color: #aaffaa;
 }
 
 .setIsRotating{
