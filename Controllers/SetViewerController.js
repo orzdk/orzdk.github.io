@@ -25,14 +25,14 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 		cb_un: false
 	}
 
-	$scope.min = 142;
-	$scope.max = 180;   
+	$scope.min = 148;
+	$scope.max = 192;   
 
 	$scope.datefrom = "";
 	$scope.dateto = "";
 
 	$scope.textfilter = "";
-	$scope.newtoday = 170;
+	$scope.newtoday = 85;
 
 	$scope.timeshiftedtoday = new Date().toISOString().slice(0, 10);
 
@@ -48,15 +48,20 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 	}, true);
 
 	$scope.$watch('min', function(new_, old_){
-		if ($scope.setInfo[new_]) $scope.datefrom = $scope.setInfo[$scope.min].name + " (" + $scope.setInfo[$scope.min].releaseDate.substring(0,7) + ")" ;
+		if ($scope.setInfo[new_]) $scope.datefrom = $scope.setInfo[$scope.min].name + " (" + $scope.setInfo[$scope.min].releaseDate.substring(0,10) + ")" ;
 	});
 
 	$scope.$watch('max', function(new_, old_){
-		if ($scope.setInfo[new_]) $scope.dateto = $scope.setInfo[$scope.max].name + " (" + $scope.setInfo[$scope.max].releaseDate.substring(0,7) + ")" ;
+		if ($scope.setInfo[new_]) $scope.dateto = $scope.setInfo[$scope.max].name + " (" + $scope.setInfo[$scope.max].releaseDate.substring(0,10) + ")" ;
 	});
 
 	$scope.$watch('newtoday', function(new_, old_){
-		if($scope.reldates && $scope.reldates[new_]) $scope.timeshiftedtoday = $scope.reldates[new_].substring(0,7);;
+		if($scope.reldates && $scope.reldates[new_]) {
+			console.log($scope.reldates[new_]);
+			console.log(new_);
+		
+			$scope.timeshiftedtoday = $scope.reldates[new_].substring(0,10);;
+		}
 	});
 
     $scope.toggleFilter = function(settype) {
@@ -103,10 +108,17 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 	   	return show;
     }
 
-
+	$scope.minusTimeshift = function(){
+		$scope.newtoday--;
+	}
+	
+	$scope.plusTimeshift = function(){
+		$scope.newtoday++;
+	}		
+	
 	$scope.inStandard = function(set){
 		
-		var today = new Date($scope.timeshiftedtoday);
+		var today = new Date($scope.timeshiftedtoday + 'T23:59:59');
 		release = new Date(set.releaseDate);
 		rotateout = new Date(set.standardRotateOutDate);
 
@@ -123,10 +135,12 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 		DataService2.setData.fetch().then(function(setinfo){
 			$scope.setInfo = setinfo;
 
-			$scope.datefrom = $scope.setInfo[$scope.min].name + " (" + $scope.setInfo[$scope.min].releaseDate.substring(0,7) + ")" ;
-			$scope.dateto = $scope.setInfo[$scope.max].name + " (" + $scope.setInfo[$scope.max].releaseDate.substring(0,7) + ")" ;
+			$scope.datefrom = $scope.setInfo[$scope.min].name + " (" + $scope.setInfo[$scope.min].releaseDate.substring(0,10) + ")" ;
+			$scope.dateto = $scope.setInfo[$scope.max-1].name + " (" + $scope.setInfo[$scope.max-1].releaseDate.substring(0,10) + ")" ;
 
-			$scope.reldates = _.pluck($scope.setInfo, 'releaseDate');
+			//$scope.reldates = _.pluck($scope.setInfo, 'releaseDate');
+			$scope.reldates = _.pluck(_.filter($scope.setInfo, function(set){return set.setType=="core" || set.setType=="expansion" }), 'releaseDate');
+
 		});
 	}
 

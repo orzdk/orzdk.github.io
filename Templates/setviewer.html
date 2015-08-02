@@ -9,9 +9,13 @@ Thanks to mtgjson.com & jninnes/mtgicons
 	</div>
 	<div class="col-xs-4" style="padding-right:15px">
 		Standard Timeshifter : {{timeshiftedtoday}}
-		<slider floor="0" ceiling="200" step="1" precision="0" ng-model="newtoday"></slider>
+		<slider floor="0" ceiling="98" step="1" precision="0" ng-model="newtoday"></slider>
 	</div>
-	<div class="col-xs-4" >
+		<div class="col-xs-1" >
+		<button ng-click="minusTimeshift()"><</button>
+		<button ng-click="plusTimeshift()">></button>
+	</div>
+	<div class="col-xs-3" >
 		Search Name/Block
 		<input class="form-control" ng-model="textfilter" ng-model-options="{debounce: 1000}" style="margin-top:10px;height:28px">
 	</div>
@@ -35,7 +39,6 @@ Thanks to mtgjson.com & jninnes/mtgicons
 <input type="checkbox" ng-model="cbFilters.cb_un">&nbsp&nbsp;un
 <button ng-click="toggleCheckboxes()">Toggle</button>
 
-<span class="setrange">{{datefrom}} to {{dateto}}</span>
 <br>
 
 <table class="table">
@@ -67,8 +70,8 @@ Thanks to mtgjson.com & jninnes/mtgicons
 			<td>{{set.block}}</td>
 			<td>{{set.code}}</td>
 			<td>{{set.setType}}</td>
-			<td>{{set.releaseDateDisp}}</td>
-			<td>{{set.standardRotateOutDateDisp}}</td>
+			<td>{{set.releaseDate | limitTo: 10}}</td>
+			<td>{{set.standardRotateOutDate  | limitTo: 10}}</td>
 			<td>{{set.rotateOutWhenIsReleased}}</td>
 			<td>{{selectorExists("." + set.iconClass)}}</td>
 		</tr>

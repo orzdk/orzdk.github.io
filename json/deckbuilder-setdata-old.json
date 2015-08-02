@@ -13,7 +13,16 @@
     "noicon": false,
     "releaseDateDisp": "1993-08-05",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "08/1993",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "08/1993",
+      "10/1998",
+      "Limited Edition Alpha",
+      "default"
+    ]
   },
   {
     "name": "Limited Edition Beta",
@@ -29,7 +38,16 @@
     "noicon": false,
     "releaseDateDisp": "1993-10-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "10/1993",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "10/1993",
+      "10/1998",
+      "Limited Edition Beta",
+      "default"
+    ]
   },
   {
     "name": "Arabian Nights",
@@ -45,7 +63,16 @@
     "noicon": false,
     "releaseDateDisp": "1993-12-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "12/1993",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "12/1993",
+      "10/1998",
+      "Arabian Nights",
+      "default"
+    ]
   },
   {
     "name": "Unlimited Edition",
@@ -61,35 +88,16 @@
     "noicon": false,
     "releaseDateDisp": "1993-12-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
-  },
-  {
-    "name": "Collector's Edition",
-    "code": "CED",
-    "gathererCode": "ced",
-    "releaseDate": "1993-11-30T23:00:00.000Z",
-    "setType": "reprint",
-    "block": "Collector's Edition",
-    "rotateType": null,
-    "rotate": null,
-    "rotations": 2,
-    "iconClass": "e-ced",
-    "noicon": false,
-    "releaseDateDisp": "1993-12-01"
-  },
-  {
-    "name": "International Collector's Edition",
-    "code": "CEI",
-    "gathererCode": "cei",
-    "releaseDate": "1993-11-30T23:00:00.000Z",
-    "setType": "reprint",
-    "block": "International Collector's Edition",
-    "rotateType": null,
-    "rotate": null,
-    "rotations": 2,
-    "iconClass": "e-cei",
-    "noicon": false,
-    "releaseDateDisp": "1993-12-01"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "12/1993",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "12/1993",
+      "10/1998",
+      "Unlimited Edition",
+      "default"
+    ]
   },
   {
     "name": "Dragon Con",
@@ -102,7 +110,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pdrc",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1994-01-01"
   },
   {
@@ -119,7 +127,16 @@
     "noicon": false,
     "releaseDateDisp": "1994-03-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "03/1994",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "03/1994",
+      "10/1998",
+      "Antiquities",
+      "default"
+    ]
   },
   {
     "name": "Revised Edition",
@@ -135,7 +152,16 @@
     "noicon": false,
     "releaseDateDisp": "1994-04-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "04/1994",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "04/1994",
+      "10/1998",
+      "Revised Edition",
+      "default"
+    ]
   },
   {
     "name": "Legends",
@@ -151,7 +177,16 @@
     "noicon": false,
     "releaseDateDisp": "1994-06-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "06/1994",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "06/1994",
+      "10/1998",
+      "Legends",
+      "default"
+    ]
   },
   {
     "name": "The Dark",
@@ -167,7 +202,16 @@
     "noicon": false,
     "releaseDateDisp": "1994-08-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "08/1994",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "08/1994",
+      "10/1998",
+      "The Dark",
+      "default"
+    ]
   },
   {
     "name": "Fallen Empires",
@@ -183,7 +227,16 @@
     "noicon": false,
     "releaseDateDisp": "1994-11-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "11/1994",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "11/1994",
+      "10/1998",
+      "Fallen Empires",
+      "default"
+    ]
   },
   {
     "name": "Media Inserts",
@@ -210,7 +263,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-plgm",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1995-01-01"
   },
   {
@@ -227,7 +280,16 @@
     "noicon": false,
     "releaseDateDisp": "1995-04-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "04/1995",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "04/1995",
+      "10/1998",
+      "Fourth Edition",
+      "default"
+    ]
   },
   {
     "name": "Ice Age",
@@ -243,7 +305,16 @@
     "noicon": false,
     "releaseDateDisp": "1995-06-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "06/1995",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "06/1995",
+      "10/1998",
+      "Ice Age",
+      "default"
+    ]
   },
   {
     "name": "Chronicles",
@@ -273,7 +344,16 @@
     "noicon": false,
     "releaseDateDisp": "1995-10-01",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "10/1995",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "10/1995",
+      "10/1998",
+      "Homelands",
+      "default"
+    ]
   },
   {
     "name": "Alliances",
@@ -289,7 +369,16 @@
     "noicon": false,
     "releaseDateDisp": "1996-06-10",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "06/1996",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "06/1996",
+      "10/1998",
+      "Alliances",
+      "default"
+    ]
   },
   {
     "name": "Rivals Quick Start Set",
@@ -302,7 +391,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-rqs",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1996-07-01"
   },
   {
@@ -316,7 +405,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-parl",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1996-08-02"
   },
   {
@@ -330,7 +419,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pcel",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1996-08-14"
   },
   {
@@ -347,7 +436,16 @@
     "noicon": false,
     "releaseDateDisp": "1996-10-08",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "10/1996",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "10/1996",
+      "10/1998",
+      "Mirage",
+      "default"
+    ]
   },
   {
     "name": "Multiverse Gift Box",
@@ -360,7 +458,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-mgb",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1996-11-01"
   },
   {
@@ -374,7 +472,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-itp",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1996-12-31"
   },
   {
@@ -391,7 +489,16 @@
     "noicon": false,
     "releaseDateDisp": "1997-02-03",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "02/1997",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "02/1997",
+      "10/1998",
+      "Visions",
+      "default"
+    ]
   },
   {
     "name": "Fifth Edition",
@@ -407,7 +514,16 @@
     "noicon": false,
     "releaseDateDisp": "1997-03-24",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "03/1997",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "03/1997",
+      "10/1998",
+      "Fifth Edition",
+      "default"
+    ]
   },
   {
     "name": "Portal Demo Game",
@@ -420,7 +536,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-ppod",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1997-05-01"
   },
   {
@@ -448,7 +564,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-van",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1997-05-01"
   },
   {
@@ -465,7 +581,16 @@
     "noicon": false,
     "releaseDateDisp": "1997-06-09",
     "standardRotateOutDate": "1998-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Urza's Saga"
+    "standardRotateOutDateDisp": "1998-10-12",
+    "rotateOutWhenIsReleased": "Urza's Saga",
+    "timesheetstart": "06/1997",
+    "timesheetend": "10/1998",
+    "timesheetdata": [
+      "06/1997",
+      "10/1998",
+      "Weatherlight",
+      "default"
+    ]
   },
   {
     "name": "Prerelease Events",
@@ -478,7 +603,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-ppre",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1997-10-04"
   },
   {
@@ -495,7 +620,16 @@
     "noicon": false,
     "releaseDateDisp": "1997-10-14",
     "standardRotateOutDate": "1999-10-03T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Mercadian Masques"
+    "standardRotateOutDateDisp": "1999-10-04",
+    "rotateOutWhenIsReleased": "Mercadian Masques",
+    "timesheetstart": "10/1997",
+    "timesheetend": "10/1999",
+    "timesheetdata": [
+      "10/1997",
+      "10/1999",
+      "Tempest",
+      "default"
+    ]
   },
   {
     "name": "Stronghold",
@@ -511,7 +645,16 @@
     "noicon": false,
     "releaseDateDisp": "1998-03-02",
     "standardRotateOutDate": "1999-10-03T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Mercadian Masques"
+    "standardRotateOutDateDisp": "1999-10-04",
+    "rotateOutWhenIsReleased": "Mercadian Masques",
+    "timesheetstart": "03/1998",
+    "timesheetend": "10/1999",
+    "timesheetdata": [
+      "03/1998",
+      "10/1999",
+      "Stronghold",
+      "default"
+    ]
   },
   {
     "name": "Portal Second Age",
@@ -538,7 +681,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pjgp",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1998-06-01"
   },
   {
@@ -555,7 +698,16 @@
     "noicon": false,
     "releaseDateDisp": "1998-06-15",
     "standardRotateOutDate": "1999-10-03T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Mercadian Masques"
+    "standardRotateOutDateDisp": "1999-10-04",
+    "rotateOutWhenIsReleased": "Mercadian Masques",
+    "timesheetstart": "06/1998",
+    "timesheetend": "10/1999",
+    "timesheetdata": [
+      "06/1998",
+      "10/1999",
+      "Exodus",
+      "default"
+    ]
   },
   {
     "name": "Unglued",
@@ -582,7 +734,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-palp",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1998-09-01"
   },
   {
@@ -599,7 +751,16 @@
     "noicon": false,
     "releaseDateDisp": "1998-10-12",
     "standardRotateOutDate": "2000-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Invasion"
+    "standardRotateOutDateDisp": "2000-10-02",
+    "rotateOutWhenIsReleased": "Invasion",
+    "timesheetstart": "10/1998",
+    "timesheetend": "10/2000",
+    "timesheetdata": [
+      "10/1998",
+      "10/2000",
+      "Urza's Saga",
+      "default"
+    ]
   },
   {
     "name": "Anthologies",
@@ -629,7 +790,16 @@
     "noicon": false,
     "releaseDateDisp": "1999-02-15",
     "standardRotateOutDate": "2000-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Invasion"
+    "standardRotateOutDateDisp": "2000-10-02",
+    "rotateOutWhenIsReleased": "Invasion",
+    "timesheetstart": "02/1999",
+    "timesheetend": "10/2000",
+    "timesheetdata": [
+      "02/1999",
+      "10/2000",
+      "Urza's Legacy",
+      "default"
+    ]
   },
   {
     "name": "Classic Sixth Edition",
@@ -645,7 +815,16 @@
     "noicon": false,
     "releaseDateDisp": "1999-04-21",
     "standardRotateOutDate": "2000-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Invasion"
+    "standardRotateOutDateDisp": "2000-10-02",
+    "rotateOutWhenIsReleased": "Invasion",
+    "timesheetstart": "04/1999",
+    "timesheetend": "10/2000",
+    "timesheetdata": [
+      "04/1999",
+      "10/2000",
+      "Classic Sixth Edition",
+      "default"
+    ]
   },
   {
     "name": "Portal Three Kingdoms",
@@ -675,7 +854,16 @@
     "noicon": false,
     "releaseDateDisp": "1999-06-07",
     "standardRotateOutDate": "2000-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Invasion"
+    "standardRotateOutDateDisp": "2000-10-02",
+    "rotateOutWhenIsReleased": "Invasion",
+    "timesheetstart": "06/1999",
+    "timesheetend": "10/2000",
+    "timesheetdata": [
+      "06/1999",
+      "10/2000",
+      "Urza's Destiny",
+      "default"
+    ]
   },
   {
     "name": "Starter 1999",
@@ -702,7 +890,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pgru",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1999-07-12"
   },
   {
@@ -716,7 +904,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pwor",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1999-08-04"
   },
   {
@@ -730,7 +918,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pwos",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1999-09-04"
   },
   {
@@ -747,7 +935,16 @@
     "noicon": false,
     "releaseDateDisp": "1999-10-04",
     "standardRotateOutDate": "2001-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Odyssey"
+    "standardRotateOutDateDisp": "2001-10-01",
+    "rotateOutWhenIsReleased": "Odyssey",
+    "timesheetstart": "10/1999",
+    "timesheetend": "10/2001",
+    "timesheetdata": [
+      "10/1999",
+      "10/2001",
+      "Mercadian Masques",
+      "default"
+    ]
   },
   {
     "name": "Battle Royale Box Set",
@@ -774,7 +971,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-psus",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "1999-12-01"
   },
   {
@@ -788,7 +985,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pfnm",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2000-02-01"
   },
   {
@@ -802,7 +999,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pelp",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2000-02-05"
   },
   {
@@ -819,7 +1016,16 @@
     "noicon": false,
     "releaseDateDisp": "2000-02-14",
     "standardRotateOutDate": "2001-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Odyssey"
+    "standardRotateOutDateDisp": "2001-10-01",
+    "rotateOutWhenIsReleased": "Odyssey",
+    "timesheetstart": "02/2000",
+    "timesheetend": "10/2001",
+    "timesheetdata": [
+      "02/2000",
+      "10/2001",
+      "Nemesis",
+      "default"
+    ]
   },
   {
     "name": "Starter 2000",
@@ -849,7 +1055,16 @@
     "noicon": false,
     "releaseDateDisp": "2000-06-05",
     "standardRotateOutDate": "2001-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Odyssey"
+    "standardRotateOutDateDisp": "2001-10-01",
+    "rotateOutWhenIsReleased": "Odyssey",
+    "timesheetstart": "06/2000",
+    "timesheetend": "10/2001",
+    "timesheetdata": [
+      "06/2000",
+      "10/2001",
+      "Prophecy",
+      "default"
+    ]
   },
   {
     "name": "Beatdown Box Set",
@@ -879,7 +1094,16 @@
     "noicon": false,
     "releaseDateDisp": "2000-10-02",
     "standardRotateOutDate": "2002-10-06T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Onslaught"
+    "standardRotateOutDateDisp": "2002-10-07",
+    "rotateOutWhenIsReleased": "Onslaught",
+    "timesheetstart": "10/2000",
+    "timesheetend": "10/2002",
+    "timesheetdata": [
+      "10/2000",
+      "10/2002",
+      "Invasion",
+      "default"
+    ]
   },
   {
     "name": "Planeshift",
@@ -895,7 +1119,16 @@
     "noicon": false,
     "releaseDateDisp": "2001-02-05",
     "standardRotateOutDate": "2002-10-06T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Onslaught"
+    "standardRotateOutDateDisp": "2002-10-07",
+    "rotateOutWhenIsReleased": "Onslaught",
+    "timesheetstart": "02/2001",
+    "timesheetend": "10/2002",
+    "timesheetdata": [
+      "02/2001",
+      "10/2002",
+      "Planeshift",
+      "default"
+    ]
   },
   {
     "name": "Seventh Edition",
@@ -911,7 +1144,16 @@
     "noicon": false,
     "releaseDateDisp": "2001-04-11",
     "standardRotateOutDate": "2002-10-06T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Onslaught"
+    "standardRotateOutDateDisp": "2002-10-07",
+    "rotateOutWhenIsReleased": "Onslaught",
+    "timesheetstart": "04/2001",
+    "timesheetend": "10/2002",
+    "timesheetdata": [
+      "04/2001",
+      "10/2002",
+      "Seventh Edition",
+      "default"
+    ]
   },
   {
     "name": "Magic Player Rewards",
@@ -924,7 +1166,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pmpr",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2001-05-01"
   },
   {
@@ -941,7 +1183,16 @@
     "noicon": false,
     "releaseDateDisp": "2001-06-04",
     "standardRotateOutDate": "2002-10-06T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Onslaught"
+    "standardRotateOutDateDisp": "2002-10-07",
+    "rotateOutWhenIsReleased": "Onslaught",
+    "timesheetstart": "06/2001",
+    "timesheetend": "10/2002",
+    "timesheetdata": [
+      "06/2001",
+      "10/2002",
+      "Apocalypse",
+      "default"
+    ]
   },
   {
     "name": "Odyssey",
@@ -957,7 +1208,16 @@
     "noicon": false,
     "releaseDateDisp": "2001-10-01",
     "standardRotateOutDate": "2003-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Mirrodin"
+    "standardRotateOutDateDisp": "2003-10-02",
+    "rotateOutWhenIsReleased": "Mirrodin",
+    "timesheetstart": "10/2001",
+    "timesheetend": "10/2003",
+    "timesheetdata": [
+      "10/2001",
+      "10/2003",
+      "Odyssey",
+      "default"
+    ]
   },
   {
     "name": "Deckmasters",
@@ -987,7 +1247,16 @@
     "noicon": false,
     "releaseDateDisp": "2002-02-04",
     "standardRotateOutDate": "2003-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Mirrodin"
+    "standardRotateOutDateDisp": "2003-10-02",
+    "rotateOutWhenIsReleased": "Mirrodin",
+    "timesheetstart": "02/2002",
+    "timesheetend": "10/2003",
+    "timesheetdata": [
+      "02/2002",
+      "10/2003",
+      "Torment",
+      "default"
+    ]
   },
   {
     "name": "Judgment",
@@ -1003,7 +1272,16 @@
     "noicon": false,
     "releaseDateDisp": "2002-05-27",
     "standardRotateOutDate": "2003-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Mirrodin"
+    "standardRotateOutDateDisp": "2003-10-02",
+    "rotateOutWhenIsReleased": "Mirrodin",
+    "timesheetstart": "05/2002",
+    "timesheetend": "10/2003",
+    "timesheetdata": [
+      "05/2002",
+      "10/2003",
+      "Judgment",
+      "default"
+    ]
   },
   {
     "name": "Onslaught",
@@ -1019,7 +1297,16 @@
     "noicon": false,
     "releaseDateDisp": "2002-10-07",
     "standardRotateOutDate": "2004-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Champions of Kamigawa"
+    "standardRotateOutDateDisp": "2004-10-01",
+    "rotateOutWhenIsReleased": "Champions of Kamigawa",
+    "timesheetstart": "10/2002",
+    "timesheetend": "10/2004",
+    "timesheetdata": [
+      "10/2002",
+      "10/2004",
+      "Onslaught",
+      "default"
+    ]
   },
   {
     "name": "Legions",
@@ -1035,7 +1322,16 @@
     "noicon": false,
     "releaseDateDisp": "2003-02-03",
     "standardRotateOutDate": "2004-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Champions of Kamigawa"
+    "standardRotateOutDateDisp": "2004-10-01",
+    "rotateOutWhenIsReleased": "Champions of Kamigawa",
+    "timesheetstart": "02/2003",
+    "timesheetend": "10/2004",
+    "timesheetdata": [
+      "02/2003",
+      "10/2004",
+      "Legions",
+      "default"
+    ]
   },
   {
     "name": "Scourge",
@@ -1051,7 +1347,16 @@
     "noicon": false,
     "releaseDateDisp": "2003-05-26",
     "standardRotateOutDate": "2004-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Champions of Kamigawa"
+    "standardRotateOutDateDisp": "2004-10-01",
+    "rotateOutWhenIsReleased": "Champions of Kamigawa",
+    "timesheetstart": "05/2003",
+    "timesheetend": "10/2004",
+    "timesheetdata": [
+      "05/2003",
+      "10/2004",
+      "Scourge",
+      "default"
+    ]
   },
   {
     "name": "Release Events",
@@ -1064,7 +1369,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-prel",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2003-07-26"
   },
   {
@@ -1081,7 +1386,16 @@
     "noicon": false,
     "releaseDateDisp": "2003-07-28",
     "standardRotateOutDate": "2004-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Champions of Kamigawa"
+    "standardRotateOutDateDisp": "2004-10-01",
+    "rotateOutWhenIsReleased": "Champions of Kamigawa",
+    "timesheetstart": "07/2003",
+    "timesheetend": "10/2004",
+    "timesheetdata": [
+      "07/2003",
+      "10/2004",
+      "Eighth Edition",
+      "default"
+    ]
   },
   {
     "name": "Mirrodin",
@@ -1097,7 +1411,16 @@
     "noicon": false,
     "releaseDateDisp": "2003-10-02",
     "standardRotateOutDate": "2005-10-06T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Ravnica: City of Guilds"
+    "standardRotateOutDateDisp": "2005-10-07",
+    "rotateOutWhenIsReleased": "Ravnica: City of Guilds",
+    "timesheetstart": "10/2003",
+    "timesheetend": "10/2005",
+    "timesheetdata": [
+      "10/2003",
+      "10/2005",
+      "Mirrodin",
+      "default"
+    ]
   },
   {
     "name": "Darksteel",
@@ -1113,7 +1436,16 @@
     "noicon": false,
     "releaseDateDisp": "2004-02-06",
     "standardRotateOutDate": "2005-10-06T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Ravnica: City of Guilds"
+    "standardRotateOutDateDisp": "2005-10-07",
+    "rotateOutWhenIsReleased": "Ravnica: City of Guilds",
+    "timesheetstart": "02/2004",
+    "timesheetend": "10/2005",
+    "timesheetdata": [
+      "02/2004",
+      "10/2005",
+      "Darksteel",
+      "default"
+    ]
   },
   {
     "name": "Fifth Dawn",
@@ -1129,7 +1461,16 @@
     "noicon": false,
     "releaseDateDisp": "2004-06-04",
     "standardRotateOutDate": "2005-10-06T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Ravnica: City of Guilds"
+    "standardRotateOutDateDisp": "2005-10-07",
+    "rotateOutWhenIsReleased": "Ravnica: City of Guilds",
+    "timesheetstart": "06/2004",
+    "timesheetend": "10/2005",
+    "timesheetdata": [
+      "06/2004",
+      "10/2005",
+      "Fifth Dawn",
+      "default"
+    ]
   },
   {
     "name": "Champions of Kamigawa",
@@ -1145,7 +1486,16 @@
     "noicon": false,
     "releaseDateDisp": "2004-10-01",
     "standardRotateOutDate": "2006-10-05T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Time Spiral"
+    "standardRotateOutDateDisp": "2006-10-06",
+    "rotateOutWhenIsReleased": "Time Spiral",
+    "timesheetstart": "10/2004",
+    "timesheetend": "10/2006",
+    "timesheetdata": [
+      "10/2004",
+      "10/2006",
+      "Champions of Kamigawa",
+      "default"
+    ]
   },
   {
     "name": "Unhinged",
@@ -1175,7 +1525,16 @@
     "noicon": false,
     "releaseDateDisp": "2005-02-04",
     "standardRotateOutDate": "2006-10-05T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Time Spiral"
+    "standardRotateOutDateDisp": "2006-10-06",
+    "rotateOutWhenIsReleased": "Time Spiral",
+    "timesheetstart": "02/2005",
+    "timesheetend": "10/2006",
+    "timesheetdata": [
+      "02/2005",
+      "10/2006",
+      "Betrayers of Kamigawa",
+      "default"
+    ]
   },
   {
     "name": "Saviors of Kamigawa",
@@ -1191,7 +1550,16 @@
     "noicon": false,
     "releaseDateDisp": "2005-06-03",
     "standardRotateOutDate": "2006-10-05T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Time Spiral"
+    "standardRotateOutDateDisp": "2006-10-06",
+    "rotateOutWhenIsReleased": "Time Spiral",
+    "timesheetstart": "06/2005",
+    "timesheetend": "10/2006",
+    "timesheetdata": [
+      "06/2005",
+      "10/2006",
+      "Saviors of Kamigawa",
+      "default"
+    ]
   },
   {
     "name": "Ninth Edition",
@@ -1207,7 +1575,16 @@
     "noicon": false,
     "releaseDateDisp": "2005-07-29",
     "standardRotateOutDate": "2006-10-05T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Time Spiral"
+    "standardRotateOutDateDisp": "2006-10-06",
+    "rotateOutWhenIsReleased": "Time Spiral",
+    "timesheetstart": "07/2005",
+    "timesheetend": "10/2006",
+    "timesheetdata": [
+      "07/2005",
+      "10/2006",
+      "Ninth Edition",
+      "default"
+    ]
   },
   {
     "name": "Ravnica: City of Guilds",
@@ -1223,7 +1600,16 @@
     "noicon": false,
     "releaseDateDisp": "2005-10-07",
     "standardRotateOutDate": "2007-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Lorwyn"
+    "standardRotateOutDateDisp": "2007-10-12",
+    "rotateOutWhenIsReleased": "Lorwyn",
+    "timesheetstart": "10/2005",
+    "timesheetend": "10/2007",
+    "timesheetdata": [
+      "10/2005",
+      "10/2007",
+      "Ravnica: City of Guilds",
+      "default"
+    ]
   },
   {
     "name": "Two-Headed Giant Tournament",
@@ -1236,7 +1622,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-p2hg",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2005-12-09"
   },
   {
@@ -1250,7 +1636,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pwpn",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2006-01-01"
   },
   {
@@ -1267,7 +1653,16 @@
     "noicon": false,
     "releaseDateDisp": "2006-02-03",
     "standardRotateOutDate": "2007-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Lorwyn"
+    "standardRotateOutDateDisp": "2007-10-12",
+    "rotateOutWhenIsReleased": "Lorwyn",
+    "timesheetstart": "02/2006",
+    "timesheetend": "10/2007",
+    "timesheetdata": [
+      "02/2006",
+      "10/2007",
+      "Guildpact",
+      "default"
+    ]
   },
   {
     "name": "Champs and States",
@@ -1280,7 +1675,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pcmp",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2006-03-18"
   },
   {
@@ -1297,7 +1692,16 @@
     "noicon": false,
     "releaseDateDisp": "2006-05-05",
     "standardRotateOutDate": "2007-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Lorwyn"
+    "standardRotateOutDateDisp": "2007-10-12",
+    "rotateOutWhenIsReleased": "Lorwyn",
+    "timesheetstart": "05/2006",
+    "timesheetend": "10/2007",
+    "timesheetdata": [
+      "05/2006",
+      "10/2007",
+      "Dissension",
+      "default"
+    ]
   },
   {
     "name": "Coldsnap",
@@ -1313,7 +1717,16 @@
     "noicon": false,
     "releaseDateDisp": "2006-07-21",
     "standardRotateOutDate": "2007-10-11T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Lorwyn"
+    "standardRotateOutDateDisp": "2007-10-12",
+    "rotateOutWhenIsReleased": "Lorwyn",
+    "timesheetstart": "07/2006",
+    "timesheetend": "10/2007",
+    "timesheetdata": [
+      "07/2006",
+      "10/2007",
+      "Coldsnap",
+      "default"
+    ]
   },
   {
     "name": "Coldsnap Theme Decks",
@@ -1326,7 +1739,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-cst",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2006-07-21"
   },
   {
@@ -1343,7 +1756,16 @@
     "noicon": false,
     "releaseDateDisp": "2006-10-06",
     "standardRotateOutDate": "2008-10-02T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Shards of Alara"
+    "standardRotateOutDateDisp": "2008-10-03",
+    "rotateOutWhenIsReleased": "Shards of Alara",
+    "timesheetstart": "10/2006",
+    "timesheetend": "10/2008",
+    "timesheetdata": [
+      "10/2006",
+      "10/2008",
+      "Time Spiral",
+      "default"
+    ]
   },
   {
     "name": "Time Spiral \"Timeshifted\"",
@@ -1356,10 +1778,19 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-tsb",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2006-10-06",
     "standardRotateOutDate": "2008-10-02T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Shards of Alara"
+    "standardRotateOutDateDisp": "2008-10-03",
+    "rotateOutWhenIsReleased": "Shards of Alara",
+    "timesheetstart": "10/2006",
+    "timesheetend": "10/2008",
+    "timesheetdata": [
+      "10/2006",
+      "10/2008",
+      "Time Spiral \"Timeshifted\"",
+      "default"
+    ]
   },
   {
     "name": "Happy Holidays",
@@ -1372,7 +1803,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-phho",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2006-12-31"
   },
   {
@@ -1389,7 +1820,16 @@
     "noicon": false,
     "releaseDateDisp": "2007-02-02",
     "standardRotateOutDate": "2008-10-02T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Shards of Alara"
+    "standardRotateOutDateDisp": "2008-10-03",
+    "rotateOutWhenIsReleased": "Shards of Alara",
+    "timesheetstart": "02/2007",
+    "timesheetend": "10/2008",
+    "timesheetdata": [
+      "02/2007",
+      "10/2008",
+      "Planar Chaos",
+      "default"
+    ]
   },
   {
     "name": "Pro Tour",
@@ -1402,7 +1842,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-ppro",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2007-02-09"
   },
   {
@@ -1416,7 +1856,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pgpx",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2007-02-24"
   },
   {
@@ -1433,7 +1873,16 @@
     "noicon": false,
     "releaseDateDisp": "2007-05-04",
     "standardRotateOutDate": "2008-10-02T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Shards of Alara"
+    "standardRotateOutDateDisp": "2008-10-03",
+    "rotateOutWhenIsReleased": "Shards of Alara",
+    "timesheetstart": "05/2007",
+    "timesheetend": "10/2008",
+    "timesheetdata": [
+      "05/2007",
+      "10/2008",
+      "Future Sight",
+      "default"
+    ]
   },
   {
     "name": "Tenth Edition",
@@ -1449,7 +1898,16 @@
     "noicon": false,
     "releaseDateDisp": "2007-07-13",
     "standardRotateOutDate": "2008-10-02T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Shards of Alara"
+    "standardRotateOutDateDisp": "2008-10-03",
+    "rotateOutWhenIsReleased": "Shards of Alara",
+    "timesheetstart": "07/2007",
+    "timesheetend": "10/2008",
+    "timesheetdata": [
+      "07/2007",
+      "10/2008",
+      "Tenth Edition",
+      "default"
+    ]
   },
   {
     "name": "Magic Game Day",
@@ -1462,7 +1920,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pmgd",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2007-07-14"
   },
   {
@@ -1476,7 +1934,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-psum",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2007-07-21"
   },
   {
@@ -1507,7 +1965,16 @@
     "noicon": false,
     "releaseDateDisp": "2007-10-12",
     "standardRotateOutDate": "2009-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Zendikar"
+    "standardRotateOutDateDisp": "2009-10-02",
+    "rotateOutWhenIsReleased": "Zendikar",
+    "timesheetstart": "10/2007",
+    "timesheetend": "10/2009",
+    "timesheetdata": [
+      "10/2007",
+      "10/2009",
+      "Lorwyn",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Elves vs. Goblins",
@@ -1534,7 +2001,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-plpa",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2008-02-01"
   },
   {
@@ -1551,7 +2018,16 @@
     "noicon": false,
     "releaseDateDisp": "2008-02-01",
     "standardRotateOutDate": "2009-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Zendikar"
+    "standardRotateOutDateDisp": "2009-10-02",
+    "rotateOutWhenIsReleased": "Zendikar",
+    "timesheetstart": "02/2008",
+    "timesheetend": "10/2009",
+    "timesheetdata": [
+      "02/2008",
+      "10/2009",
+      "Morningtide",
+      "default"
+    ]
   },
   {
     "name": "15th Anniversary",
@@ -1564,7 +2040,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-p15a",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2008-04-01"
   },
   {
@@ -1581,7 +2057,16 @@
     "noicon": false,
     "releaseDateDisp": "2008-05-02",
     "standardRotateOutDate": "2009-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Zendikar"
+    "standardRotateOutDateDisp": "2009-10-02",
+    "rotateOutWhenIsReleased": "Zendikar",
+    "timesheetstart": "05/2008",
+    "timesheetend": "10/2009",
+    "timesheetdata": [
+      "05/2008",
+      "10/2009",
+      "Shadowmoor",
+      "default"
+    ]
   },
   {
     "name": "Eventide",
@@ -1597,7 +2082,16 @@
     "noicon": false,
     "releaseDateDisp": "2008-07-25",
     "standardRotateOutDate": "2009-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Zendikar"
+    "standardRotateOutDateDisp": "2009-10-02",
+    "rotateOutWhenIsReleased": "Zendikar",
+    "timesheetstart": "07/2008",
+    "timesheetend": "10/2009",
+    "timesheetdata": [
+      "07/2008",
+      "10/2009",
+      "Eventide",
+      "default"
+    ]
   },
   {
     "name": "From the Vault: Dragons",
@@ -1641,7 +2135,16 @@
     "noicon": false,
     "releaseDateDisp": "2008-10-03",
     "standardRotateOutDate": "2010-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Scars of Mirrodin"
+    "standardRotateOutDateDisp": "2010-10-01",
+    "rotateOutWhenIsReleased": "Scars of Mirrodin",
+    "timesheetstart": "10/2008",
+    "timesheetend": "10/2010",
+    "timesheetdata": [
+      "10/2008",
+      "10/2010",
+      "Shards of Alara",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Jace vs. Chandra",
@@ -1671,7 +2174,16 @@
     "noicon": false,
     "releaseDateDisp": "2009-02-06",
     "standardRotateOutDate": "2010-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Scars of Mirrodin"
+    "standardRotateOutDateDisp": "2010-10-01",
+    "rotateOutWhenIsReleased": "Scars of Mirrodin",
+    "timesheetstart": "02/2009",
+    "timesheetend": "10/2010",
+    "timesheetdata": [
+      "02/2009",
+      "10/2010",
+      "Conflux",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Divine vs. Demonic",
@@ -1701,7 +2213,16 @@
     "noicon": false,
     "releaseDateDisp": "2009-04-30",
     "standardRotateOutDate": "2010-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Scars of Mirrodin"
+    "standardRotateOutDateDisp": "2010-10-01",
+    "rotateOutWhenIsReleased": "Scars of Mirrodin",
+    "timesheetstart": "04/2009",
+    "timesheetend": "10/2010",
+    "timesheetdata": [
+      "04/2009",
+      "10/2010",
+      "Alara Reborn",
+      "default"
+    ]
   },
   {
     "name": "Magic 2010",
@@ -1717,7 +2238,16 @@
     "noicon": false,
     "releaseDateDisp": "2009-07-17",
     "standardRotateOutDate": "2010-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Scars of Mirrodin"
+    "standardRotateOutDateDisp": "2010-10-01",
+    "rotateOutWhenIsReleased": "Scars of Mirrodin",
+    "timesheetstart": "07/2009",
+    "timesheetend": "10/2010",
+    "timesheetdata": [
+      "07/2009",
+      "10/2010",
+      "Magic 2010",
+      "default"
+    ]
   },
   {
     "name": "From the Vault: Exiled",
@@ -1775,7 +2305,16 @@
     "noicon": false,
     "releaseDateDisp": "2009-10-02",
     "standardRotateOutDate": "2011-09-29T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Innistrad"
+    "standardRotateOutDateDisp": "2011-09-30",
+    "rotateOutWhenIsReleased": "Innistrad",
+    "timesheetstart": "10/2009",
+    "timesheetend": "09/2011",
+    "timesheetdata": [
+      "10/2009",
+      "09/2011",
+      "Zendikar",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Garruk vs. Liliana",
@@ -1819,7 +2358,16 @@
     "noicon": false,
     "releaseDateDisp": "2010-02-05",
     "standardRotateOutDate": "2011-09-29T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Innistrad"
+    "standardRotateOutDateDisp": "2011-09-30",
+    "rotateOutWhenIsReleased": "Innistrad",
+    "timesheetstart": "02/2010",
+    "timesheetend": "09/2011",
+    "timesheetdata": [
+      "02/2010",
+      "09/2011",
+      "Worldwake",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Phyrexia vs. the Coalition",
@@ -1849,7 +2397,16 @@
     "noicon": false,
     "releaseDateDisp": "2010-04-23",
     "standardRotateOutDate": "2011-09-29T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Innistrad"
+    "standardRotateOutDateDisp": "2011-09-30",
+    "rotateOutWhenIsReleased": "Innistrad",
+    "timesheetstart": "04/2010",
+    "timesheetend": "09/2011",
+    "timesheetdata": [
+      "04/2010",
+      "09/2011",
+      "Rise of the Eldrazi",
+      "default"
+    ]
   },
   {
     "name": "Duels of the Planeswalkers",
@@ -1893,7 +2450,16 @@
     "noicon": false,
     "releaseDateDisp": "2010-07-16",
     "standardRotateOutDate": "2011-09-29T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Innistrad"
+    "standardRotateOutDateDisp": "2011-09-30",
+    "rotateOutWhenIsReleased": "Innistrad",
+    "timesheetstart": "07/2010",
+    "timesheetend": "09/2011",
+    "timesheetdata": [
+      "07/2010",
+      "09/2011",
+      "Magic 2011",
+      "default"
+    ]
   },
   {
     "name": "From the Vault: Relics",
@@ -1937,7 +2503,16 @@
     "noicon": false,
     "releaseDateDisp": "2010-10-01",
     "standardRotateOutDate": "2012-10-04T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Return to Ravnica"
+    "standardRotateOutDateDisp": "2012-10-05",
+    "rotateOutWhenIsReleased": "Return to Ravnica",
+    "timesheetstart": "10/2010",
+    "timesheetend": "10/2012",
+    "timesheetdata": [
+      "10/2010",
+      "10/2012",
+      "Scars of Mirrodin",
+      "default"
+    ]
   },
   {
     "name": "Premium Deck Series: Fire and Lightning",
@@ -1981,7 +2556,16 @@
     "noicon": false,
     "releaseDateDisp": "2011-02-04",
     "standardRotateOutDate": "2012-10-04T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Return to Ravnica"
+    "standardRotateOutDateDisp": "2012-10-05",
+    "rotateOutWhenIsReleased": "Return to Ravnica",
+    "timesheetstart": "02/2011",
+    "timesheetend": "10/2012",
+    "timesheetdata": [
+      "02/2011",
+      "10/2012",
+      "Mirrodin Besieged",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Knights vs. Dragons",
@@ -2011,7 +2595,16 @@
     "noicon": false,
     "releaseDateDisp": "2011-05-13",
     "standardRotateOutDate": "2012-10-04T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Return to Ravnica"
+    "standardRotateOutDateDisp": "2012-10-05",
+    "rotateOutWhenIsReleased": "Return to Ravnica",
+    "timesheetstart": "05/2011",
+    "timesheetend": "10/2012",
+    "timesheetdata": [
+      "05/2011",
+      "10/2012",
+      "New Phyrexia",
+      "default"
+    ]
   },
   {
     "name": "Magic: The Gathering-Commander",
@@ -2041,7 +2634,16 @@
     "noicon": false,
     "releaseDateDisp": "2011-07-15",
     "standardRotateOutDate": "2012-10-04T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Return to Ravnica"
+    "standardRotateOutDateDisp": "2012-10-05",
+    "rotateOutWhenIsReleased": "Return to Ravnica",
+    "timesheetstart": "07/2011",
+    "timesheetend": "10/2012",
+    "timesheetdata": [
+      "07/2011",
+      "10/2012",
+      "Magic 2012",
+      "default"
+    ]
   },
   {
     "name": "From the Vault: Legends",
@@ -2085,7 +2687,16 @@
     "noicon": false,
     "releaseDateDisp": "2011-09-30",
     "standardRotateOutDate": "2013-09-26T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Theros"
+    "standardRotateOutDateDisp": "2013-09-27",
+    "rotateOutWhenIsReleased": "Theros",
+    "timesheetstart": "09/2011",
+    "timesheetend": "09/2013",
+    "timesheetdata": [
+      "09/2011",
+      "09/2013",
+      "Innistrad",
+      "default"
+    ]
   },
   {
     "name": "Premium Deck Series: Graveborn",
@@ -2115,7 +2726,16 @@
     "noicon": false,
     "releaseDateDisp": "2012-02-03",
     "standardRotateOutDate": "2013-09-26T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Theros"
+    "standardRotateOutDateDisp": "2013-09-27",
+    "rotateOutWhenIsReleased": "Theros",
+    "timesheetstart": "02/2012",
+    "timesheetend": "09/2013",
+    "timesheetdata": [
+      "02/2012",
+      "09/2013",
+      "Dark Ascension",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Venser vs. Koth",
@@ -2145,7 +2765,16 @@
     "noicon": false,
     "releaseDateDisp": "2012-05-04",
     "standardRotateOutDate": "2013-09-26T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Theros"
+    "standardRotateOutDateDisp": "2013-09-27",
+    "rotateOutWhenIsReleased": "Theros",
+    "timesheetstart": "05/2012",
+    "timesheetend": "09/2013",
+    "timesheetdata": [
+      "05/2012",
+      "09/2013",
+      "Avacyn Restored",
+      "default"
+    ]
   },
   {
     "name": "Planechase 2012 Edition",
@@ -2175,7 +2804,16 @@
     "noicon": false,
     "releaseDateDisp": "2012-07-13",
     "standardRotateOutDate": "2013-09-26T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Theros"
+    "standardRotateOutDateDisp": "2013-09-27",
+    "rotateOutWhenIsReleased": "Theros",
+    "timesheetstart": "07/2012",
+    "timesheetend": "09/2013",
+    "timesheetdata": [
+      "07/2012",
+      "09/2013",
+      "Magic 2013",
+      "default"
+    ]
   },
   {
     "name": "From the Vault: Realms",
@@ -2219,7 +2857,16 @@
     "noicon": false,
     "releaseDateDisp": "2012-10-05",
     "standardRotateOutDate": "2014-09-25T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Khans of Tarkir"
+    "standardRotateOutDateDisp": "2014-09-26",
+    "rotateOutWhenIsReleased": "Khans of Tarkir",
+    "timesheetstart": "10/2012",
+    "timesheetend": "09/2014",
+    "timesheetdata": [
+      "10/2012",
+      "09/2014",
+      "Return to Ravnica",
+      "default"
+    ]
   },
   {
     "name": "Commander's Arsenal",
@@ -2249,7 +2896,16 @@
     "noicon": false,
     "releaseDateDisp": "2013-02-01",
     "standardRotateOutDate": "2014-09-25T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Khans of Tarkir"
+    "standardRotateOutDateDisp": "2014-09-26",
+    "rotateOutWhenIsReleased": "Khans of Tarkir",
+    "timesheetstart": "02/2013",
+    "timesheetend": "09/2014",
+    "timesheetdata": [
+      "02/2013",
+      "09/2014",
+      "Gatecrash",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Sorin vs. Tibalt",
@@ -2276,7 +2932,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-pwcq",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2013-04-06"
   },
   {
@@ -2293,7 +2949,16 @@
     "noicon": false,
     "releaseDateDisp": "2013-05-03",
     "standardRotateOutDate": "2014-09-25T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Khans of Tarkir"
+    "standardRotateOutDateDisp": "2014-09-26",
+    "rotateOutWhenIsReleased": "Khans of Tarkir",
+    "timesheetstart": "05/2013",
+    "timesheetend": "09/2014",
+    "timesheetdata": [
+      "05/2013",
+      "09/2014",
+      "Dragon's Maze",
+      "default"
+    ]
   },
   {
     "name": "Modern Masters",
@@ -2323,7 +2988,16 @@
     "noicon": false,
     "releaseDateDisp": "2013-07-19",
     "standardRotateOutDate": "2014-09-25T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Khans of Tarkir"
+    "standardRotateOutDateDisp": "2014-09-26",
+    "rotateOutWhenIsReleased": "Khans of Tarkir",
+    "timesheetstart": "07/2013",
+    "timesheetend": "09/2014",
+    "timesheetdata": [
+      "07/2013",
+      "09/2014",
+      "Magic 2014 Core Set",
+      "default"
+    ]
   },
   {
     "name": "From the Vault: Twenty",
@@ -2366,8 +3040,17 @@
     "iconClass": "e-ths",
     "noicon": false,
     "releaseDateDisp": "2013-09-27",
-    "standardRotateOutDate": "2015-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Battle for Zendikar"
+    "standardRotateOutDate": "2015-10-01T00:00:00.000Z",
+    "standardRotateOutDateDisp": "2015-10-02",
+    "rotateOutWhenIsReleased": "Battle for Zendikar",
+    "timesheetstart": "09/2013",
+    "timesheetend": "10/2015",
+    "timesheetdata": [
+      "09/2013",
+      "10/2015",
+      "Theros",
+      "default"
+    ]
   },
   {
     "name": "Commander 2013 Edition",
@@ -2397,7 +3080,16 @@
     "noicon": false,
     "releaseDateDisp": "2014-02-07",
     "standardRotateOutDate": "2015-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Battle for Zendikar"
+    "standardRotateOutDateDisp": "2015-10-02",
+    "rotateOutWhenIsReleased": "Battle for Zendikar",
+    "timesheetstart": "02/2014",
+    "timesheetend": "10/2015",
+    "timesheetdata": [
+      "02/2014",
+      "10/2015",
+      "Born of the Gods",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Jace vs. Vraska",
@@ -2427,7 +3119,16 @@
     "noicon": false,
     "releaseDateDisp": "2014-05-02",
     "standardRotateOutDate": "2015-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Battle for Zendikar"
+    "standardRotateOutDateDisp": "2015-10-02",
+    "rotateOutWhenIsReleased": "Battle for Zendikar",
+    "timesheetstart": "05/2014",
+    "timesheetend": "10/2015",
+    "timesheetdata": [
+      "05/2014",
+      "10/2015",
+      "Journey into Nyx",
+      "default"
+    ]
   },
   {
     "name": "Modern Event Deck 2014",
@@ -2440,7 +3141,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-md1",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2014-05-30"
   },
   {
@@ -2485,21 +3186,16 @@
     "noicon": false,
     "releaseDateDisp": "2014-07-18",
     "standardRotateOutDate": "2015-10-01T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Battle for Zendikar"
-  },
-  {
-    "name": "Clash Pack",
-    "code": "CPK",
-    "gathererCode": "cpk",
-    "releaseDate": "2014-07-17T22:00:00.000Z",
-    "setType": "starter",
-    "block": "Clash Pack",
-    "rotateType": null,
-    "rotate": null,
-    "rotations": 2,
-    "iconClass": "e-cpk",
-    "noicon": false,
-    "releaseDateDisp": "2014-07-18"
+    "standardRotateOutDateDisp": "2015-10-02",
+    "rotateOutWhenIsReleased": "Battle for Zendikar",
+    "timesheetstart": "07/2014",
+    "timesheetend": "10/2015",
+    "timesheetdata": [
+      "07/2014",
+      "10/2015",
+      "Magic 2015 Core Set",
+      "default"
+    ]
   },
   {
     "name": "From the Vault: Annihilation (2014)",
@@ -2543,7 +3239,16 @@
     "noicon": false,
     "releaseDateDisp": "2014-09-26",
     "standardRotateOutDate": "2016-04-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Tears"
+    "standardRotateOutDateDisp": "2016-05-01",
+    "rotateOutWhenIsReleased": "Tears",
+    "timesheetstart": "09/2014",
+    "timesheetend": "05/2016",
+    "timesheetdata": [
+      "09/2014",
+      "05/2016",
+      "Khans of Tarkir",
+      "default"
+    ]
   },
   {
     "name": "Commander 2014",
@@ -2570,7 +3275,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-dd3_dvd",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2014-12-05"
   },
   {
@@ -2584,7 +3289,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-dd3_evg",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2014-12-05"
   },
   {
@@ -2598,7 +3303,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-dd3_gvl",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2014-12-05"
   },
   {
@@ -2612,7 +3317,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-dd3_jvc",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2014-12-05"
   },
   {
@@ -2626,7 +3331,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-frf_ugin",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2015-01-17"
   },
   {
@@ -2643,7 +3348,16 @@
     "noicon": false,
     "releaseDateDisp": "2015-01-23",
     "standardRotateOutDate": "2016-04-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Tears"
+    "standardRotateOutDateDisp": "2016-05-01",
+    "rotateOutWhenIsReleased": "Tears",
+    "timesheetstart": "01/2015",
+    "timesheetend": "05/2016",
+    "timesheetdata": [
+      "01/2015",
+      "05/2016",
+      "Fate Reforged",
+      "default"
+    ]
   },
   {
     "name": "Duel Decks: Elspeth vs. Kiora",
@@ -2656,7 +3370,7 @@
     "rotate": null,
     "rotations": 2,
     "iconClass": "e-ddo",
-    "noicon": false,
+    "noicon": true,
     "releaseDateDisp": "2015-02-27"
   },
   {
@@ -2673,7 +3387,16 @@
     "noicon": false,
     "releaseDateDisp": "2015-03-27",
     "standardRotateOutDate": "2016-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Lock"
+    "standardRotateOutDateDisp": "2016-10-01",
+    "rotateOutWhenIsReleased": "Lock",
+    "timesheetstart": "03/2015",
+    "timesheetend": "10/2016",
+    "timesheetdata": [
+      "03/2015",
+      "10/2016",
+      "Dragons of Tarkir",
+      "default"
+    ]
   },
   {
     "name": "Tempest Remastered",
@@ -2706,19 +3429,26 @@
   {
     "name": "Magic Origins",
     "code": "ORI",
-    "gathererCode": "ori",
+    "iconClass": "e-ori",
     "releaseDate": "2015-07-16T22:00:00.000Z",
-    "setType": "core",
     "block": "Magic Origins",
+    "setType": "core",
     "rotateType": "B",
     "rotations": 3,
-    "iconClass": "e-ori",
-    "noicon": false,
     "releaseDateDisp": "2015-07-17",
     "standardRotateOutDate": "2016-09-30T22:00:00.000Z",
-    "rotateOutWhenIsReleased": "Lock"
+    "standardRotateOutDateDisp": "2016-10-01",
+    "rotateOutWhenIsReleased": "Lock",
+    "timesheetstart": "07/2015",
+    "timesheetend": "10/2016",
+    "timesheetdata": [
+      "07/2015",
+      "10/2016",
+      "Magic Origins",
+      "default"
+    ]
   },
-  {
+{
     "name": "From the Vault: Angels",
     "code": "V15",
     "gathererCode": "v15",
@@ -2736,7 +3466,7 @@
     "name": "Battle for Zendikar",
     "code": "BFZ",
     "iconClass": "e-bfz",
-    "releaseDate": "2015-10-01T23:00:00.000Z",
+    "releaseDate": "2015-10-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Battle for Zendikar",
     "rotateType": "B",
@@ -2751,7 +3481,7 @@
     "name": "Sweat",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2016-02-01T23:00:00.000Z",
+    "releaseDate": "2016-02-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Battle for Zendikar",
     "rotateType": "B",
@@ -2766,7 +3496,7 @@
     "name": "Tears",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2016-05-01T23:00:00.000Z",
+    "releaseDate": "2016-05-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Tears",
     "rotateType": "B",
@@ -2781,7 +3511,7 @@
     "name": "Fears",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2016-07-01T23:00:00.000Z",
+    "releaseDate": "2016-07-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Tears",
     "rotateType": "B",
@@ -2796,7 +3526,7 @@
     "name": "Lock",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2016-10-01T23:00:00.000Z",
+    "releaseDate": "2016-10-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Lock",
     "rotateType": "B",
@@ -2811,7 +3541,7 @@
     "name": "Stock",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2017-02-01T23:00:00.000Z",
+    "releaseDate": "2017-02-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Lock",
     "rotateType": "B",
@@ -2826,7 +3556,7 @@
     "name": "Barrel",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2017-05-01T23:00:00.000Z",
+    "releaseDate": "2017-05-01T22:00:00.000Z",
     "setType": "expansion",
     "block": "Barrel",
     "rotateType": "B",
@@ -2840,7 +3570,7 @@
     "name": "Laughs",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2017-07-01T23:00:00.000Z",
+    "releaseDate": "2017-07-01T22:00:00.000Z",
     "setType": "expansion",
     "block": "Barrel",
     "rotateType": "B",
@@ -2854,7 +3584,7 @@
     "name": "Ham",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2017-10-01T23:00:00.000Z",
+    "releaseDate": "2017-10-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Ham",
     "rotateType": "B",
@@ -2868,7 +3598,7 @@
     "name": "Eggs",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2018-02-01T23:00:00.000Z",
+    "releaseDate": "2018-02-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Ham",
     "rotateType": "B",
@@ -2882,7 +3612,7 @@
     "name": "Soup",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2018-05-01T23:00:00.000Z",
+    "releaseDate": "2018-05-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Ham",
     "rotateType": "B",
@@ -2894,7 +3624,7 @@
     "name": "Salad",
     "code": "---",
     "iconClass": "e-UNKNOWN",
-    "releaseDate": "2018-07-01T23:00:00.000Z",
+    "releaseDate": "2018-07-01T00:00:00.000Z",
     "setType": "expansion",
     "block": "Ham",
     "rotateType": "B",
