@@ -93,14 +93,17 @@ deckbuilder.controller("SetViewerController", ["$scope", "DataService2","$timeou
 
     $scope.indexFilter = function(index, set) {
     	var show = false;
+		
     	if ( index >= $scope.min && index <= $scope.max ){
     		if ( $.inArray(set.setType, $scope.setTypeFilterArray ) >= 0 || $scope.setTypeFilterArray.length == 0 ){
     			if ( $scope.textfilter == "" || $scope.textfilter.length < 3 ){
     				show = true;
     			} else {
-    				if ( set.name.indexOf($scope.textfilter) > -1 || set.block.indexOf($scope.textfilter) || set.rotateOutWhenIsReleased.indexOf($scope.textfilter) > -1 ){
+    				if ( set.name.toLowerCase().indexOf($scope.textfilter.toLowerCase()) > -1 || set.block.toLowerCase().indexOf($scope.textfilter.toLowerCase()) >-1 || set.rotateOutWhenIsReleased.toLowerCase().indexOf($scope.textfilter.toLowerCase()) > -1 ){
     					show = true;
-    				}
+    				}else {
+						show = false;
+					}
     			}
     		} 
     	}
